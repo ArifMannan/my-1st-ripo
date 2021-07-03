@@ -1,0 +1,50 @@
+* {
+  margin: 1%;
+  padding: 0;
+}
+.head {
+  text-align: center;
+}
+.head h1 {
+  padding: 20px;
+}
+.head h2 {
+  padding: 5px;
+}
+.head h3 {
+  padding: 5px;
+}
+#para {
+  margin: 3%;
+  padding: 5px;
+  background-color: rgba(245, 234, 234, 0.788);
+}
+.pic {
+  margin: 10px;
+  text-align: center;
+}
+.pic p {
+  background-color: rgba(245, 234, 234, 0.788);
+}
+#hudai {
+  font-size: 30px;
+  padding: 20px;
+}
+
+img{
+    border-radius: 50%;
+}
+ul{
+    padding-left: 50px;
+}
+#na-dile-oina{
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}
+.full{
+    padding: 3%;
+    background-color:rgba(202, 188, 188, 0.788);
+}

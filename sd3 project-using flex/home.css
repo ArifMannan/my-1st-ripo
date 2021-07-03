@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	font-family:Century Gothic;
+}
+
+/*--Top Nav Section---*/
+.top-nav{
+	background: white;
+  display: flex;
+ margin-left: 50px;
+ height: 30px;
+ margin-right: 50px;
+ padding: 15px;
+ justify-content: center;
+ position: relative;
+	box-shadow: 0 0 15px #888888;
+}
+
+.icon{
+	position: absolute;
+	top:15px;
+	right: 40px;
+}
+
+
+
+.user  {
+	color: black;
+}
+
+.user:hover {
+	color: red;
+}
+
+
+.top-nav ul li{
+	display: inline-block;
+}
+
+.top-nav ul li a{
+ text-decoration:none;
+ color:black;
+ font-family: 'Anton', sans-serif;
+ font-family: 'Luckiest Guy', cursive;
+ font-weight: bold;
+ letter-spacing: 2px;
+ padding:10px 10px;
+ border:1px solid transparent;
+ transition: 0.6s ease;
+}
+
+.top-nav ul li a:hover{
+     background-color:#E5002B;
+	   color:white;
+}
+
+.mid-nav{
+	height: 70px;
+	background: black;
+	margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 0 0 15px #888888;
+	display: flex;
+	position: relative;
+}
+
+.name-logo{
+	color: white;
+	background: #E5002B;
+	text-decoration: none;
+	font-family: 'Anton', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
+  letter-spacing: 2px;
+	position: absolute;
+	top: 16px;
+	left: 35px;
+	padding: 10px;
+  transition: 0.6s ease;
+}
+
+.name-logo:hover{
+  background: white;
+  color:black;
+}
+
+
+.order-online{
+	float: right;
+	color: #E5002B;
+	font-family: 'Anton', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
+  letter-spacing: 2px;
+	background: white ;
+	padding: 10px 20px ;
+	position: absolute;
+	top: 16px;
+	right: 150px;
+	font-weight: bold;
+	border-radius: 3px;
+	transition: 0.6s ease;
+}
+
+.order-online:hover{
+  background: red;
+  color:white;
+}
+.cart{
+	color: white;
+	float: right;
+
+	font-size: 25px;
+	position: absolute;
+	right: 50px;
+	top: 20px;
+	transition: 0.6s ease;
+
+}
+.cart:hover{
+
+  color:red;
+}
+
+
+.mid-body{
+	display: flex;
+	width: 100%;
+
+}
+
+/*--Side Nav Section---*/
+.side-nav{
+  width: 20%;
+
+
+}
+
+.side-nav ul{
+
+	list-style-type:none;
+  padding: 8px;
+  font-size: 12px;
+	margin-left: 80px;
+	margin-top:60px;
+
+}
+.side-nav ul li{
+	display: block;
+	border-bottom: 1px solid black;
+
+
+
+}
+
+
+.side-nav ul a{
+   display:block;
+	 text-decoration: none;
+   height: 100%;
+   width: 100%;
+   line-height: 60px;
+   font-size: 18px;
+	 padding-right: 30px;
+   color: black;
+   box-sizing: border-box;
+	 font-family: 'Anton', sans-serif;
+	 font-family: 'Luckiest Guy', cursive;
+	 letter-spacing: 2px;
+   border-top: 1px solid rgb(255,255,255,1);
+   border-bottom:  1px solid rgb(255,255,255,1);
+   transition: 0.4s;
+
+
+}
+.side-nav ul a:hover{
+  background-color:#E5002B;
+  color:white;
+  border-radius: 5px;
+
+}
+
+/*--product Display Section---*/
+.product-display{
+
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  width: 80%
+}
+
+.card_design1{
+  margin-top: 30px;
+	background: white;
+	width: 25%;
+	margin: 5px;
+	margin-top: 30px;
+}
+
+
+.card_design1:hover{
+		box-shadow: 0 0 15px #888888;
+}
+
+.card_design2{
+  width: 25%;
+  margin: 5px;
+  margin-top: 30px;
+}
+
+.card_design2:hover{
+	box-shadow: 0 0 15px #888888;
+}
+
+.card_design3{
+  width: 25%;
+  margin: 7px;
+  margin-top: 30px;
+}
+
+.card_design3:hover{
+	box-shadow: 0 0 15px #888888;
+}
+
+.card_design4{
+  width: 25%;
+  margin:5px;
+  margin-top: 30px;
+}
+
+.card_design4:hover{
+	box-shadow: 0 0 15px #888888;
+}
+
+.card_design5{
+  width: 25%;
+  margin: 5px;
+  margin-top: 30px;
+}
+
+.card_design5:hover{
+	box-shadow: 0 0 15px #888888;
+}
+
+.card_design6{
+  width: 25%;
+  margin: 5px;
+  margin-top: 30px;
+}
+
+.card_design6:hover{
+	box-shadow: 0 0 15px #888888;
+}
+
+.card_design7{
+  width: 25%;
+  margin: 5px;
+  margin-top: 30px;
+}
+
+.card_design7:hover{
+	box-shadow: 0 0 15px #888888;
+}
+
+.card_design8{
+width: 25%;
+margin: 5px;
+margin-top: 30px;
+}
+
+.card_design8:hover{
+		box-shadow: 0 0 15px #888888;
+}
+
+.card_design9{
+width: 25%;
+margin: 5px;
+margin-top: 30px;
+}
+
+.card_design9:hover{
+		box-shadow: 0 0 15px #888888;
+}
+
+.card_design10{
+width: 25%;
+margin: 5px;
+margin-top: 30px;
+}
+
+.card_design10:hover{
+		box-shadow: 0 0 15px #888888;
+}
+
+.image{
+width: 200px;
+height: 200px;
+margin: 0 30px;
+}
+
+.title_field{
+  font-size: 20px;
+  text-align: center;
+  margin-top: auto;
+	font-family: 'Anton', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
+  letter-spacing: 2px;
+}
+
+.description_field{
+   font-family: monospace;
+   opacity: 0.8;
+   text-align: left;
+	 margin-top: 20px;
+	 margin-left: 20px;
+	 height: 80px;
+}
+
+.price{
+	color:#E5002B;
+	text-align: center;
+}
+
+.button1 {
+ height: 30px;
+ width:150px;
+ color:#E5002B;
+ font-family: 'Anton', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+letter-spacing: 2px;
+ text-align: center;
+ margin: 50px;
+margin-bottom: 20px;
+ border-radius: 3px;
+ transition: 0.4s;
+}
+
+.button1:hover{
+	background: #E5002B;
+	color:white;
+}
+
+
+
+/*--footer Section---*/
+footer{
+	margin-top: 20px;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+	 margin-left: 50px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
